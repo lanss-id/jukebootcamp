@@ -18,6 +18,10 @@
 
 @layer utilities {
     .bg-wave {
-        background-image: url('/_nuxt/assets/image/wave.svg');
+        background-image: url('image/wave.svg');
+    }
+
+    .transparent-wave{
+        background-image: url('/assets/image/transparent-wave.svg');
     }
 }
