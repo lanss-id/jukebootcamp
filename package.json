@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "daisyui": "^2.51.6",
-    "theme-change": "^2.5.0"
+    "tw-elements": "^1.0.0-beta2"
   }
 }

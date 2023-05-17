@@ -1,6 +1,13 @@
 <template>
   <NuxtLayout name="navbar"></NuxtLayout>
-  <NuxtLayout name="tutorial-hero"></NuxtLayout>
+  <NuxtLayout name="hero">
+    <template #judul>
+      Tutorial Install<span class="bg-clip-text font-bold text-transparent bg-gradient-to-r from-accent to-accent-focus">Tailwind CSS</span>
+    </template>
+    <template #deskripsi>
+      Hai, <span class="font-bold"> Alan disini👋.</span> Saya mencoba buat web sederhana bertema Tutorial menginstall tailwind pada project anda
+    </template>
+  </NuxtLayout>
   <NuxtLayout name="tutorial-content"></NuxtLayout>
   <TheFooter />
 </template>

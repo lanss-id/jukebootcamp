@@ -17,6 +17,7 @@
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/tutorial">Tutorial</NuxtLink></li>
         <li><NuxtLink to="/animate">Animate Card</NuxtLink></li>  
+        <li><NuxtLink to="/new-project">New Project</NuxtLink></li>  
       </ul>
     </div>
     </div>

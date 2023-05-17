@@ -8,6 +8,7 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     container: {
@@ -15,5 +16,8 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require("tw-elements/dist/plugin.cjs")
+  ],
 }
