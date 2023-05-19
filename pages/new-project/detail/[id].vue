@@ -1,6 +1,5 @@
 
-  
-<template>
+  <template>
  <div class="container my-24 px-6 mx-auto">
     <section class="mb-32 text-gray-800 text-center md:text-left">
       <h2 class="text-3xl font-bold mb-12 text-center">Detail Artikel {{ id }}</h2>
@@ -60,7 +59,7 @@
 
 <script lang="ts" setup>
 import "tw-elements/dist/css/tw-elements.min.css";
-const { id } = useRoute().params
+const { id } = useRoute().params || "trip-to-tokyo"
 const route = useRoute()
 </script>
 
