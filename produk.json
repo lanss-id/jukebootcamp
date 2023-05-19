@@ -1,0 +1,48 @@
+{
+    "produk": {
+      "nama": "Sepatu Sport",
+      "deskripsi": "Sepatu olahraga dengan desain modern",
+      "stok": 50,
+      "harga": 250000,
+      "diskon": 20,
+      "image": "sepatu-sport.jpg",
+      "detail": {
+        "komentar": [
+          {
+            "nama": "John",
+            "komentar": "Sepatu ini sangat nyaman untuk digunakan",
+            "tanggal": "2023-05-10",
+            "rating": "5"
+          },
+          {
+            "nama": "Delton",
+            "komentar": "enak dipakai, recommended",
+            "tanggal": "2023-05-10",
+            "rating": "2"
+          },
+          {
+            "nama": "Anwar",
+            "komentar": "ukuran ngga pas tapi cocok sama desainnya",
+            "tanggal": "2023-05-10",
+            "rating": "3"
+          },
+          {
+            "nama": "Jessica",
+            "komentar": "desainnya norak, kualitas biasa aja adminnya slow respon",
+            "tanggal": "2023-05-10",
+            "rating": "1"
+          },
+          {
+            "nama": "Sarah",
+            "komentar": "Harganya terjangkau dan kualitasnya bagus",
+            "tanggal": "2023-05-12",
+            "rating": "3"
+          }
+        ],
+        "rating": 4.5,
+        "terjual": 25,
+        "ulasanTerbaik": ""
+      }
+    }
+  }
+  
