@@ -13,5 +13,5 @@ export default defineNuxtConfig({
             extensions: ['vue']
         }
     ],
-    
+    modules: ['nuxt-icon'],
   })
